@@ -12,7 +12,7 @@ As EMPLOYEE, you can access to your own information and edit it.
 
 To provide a solution for this challenge, the following data model is provided:
 
-  [url=https://postimg.cc/1ndxKyJ8][img]https://i.postimg.cc/1ndxKyJ8/data-Model.png[/img][/url]
+  [![data-Model.png](https://i.postimg.cc/0jk8PQS0/data-Model.png)](https://postimg.cc/1ndxKyJ8)
 
 * role table contains role's information (ADMIN, EMPLOYEE)
 * person table stores person's information
