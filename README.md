@@ -31,6 +31,8 @@ git clone https://github.com/cfabianbarretop/krugerVaccineInventory.git
 ```
 
 * Prepare database: backup_db_postgres.dump file contains the database backup.
+  * Before to generate the database backup, you must create a new database "new_db"
+  * Run the command:
 
 ``` bash
 psql -h localhost -p 5432 -U postgres -f backup_db_postgres.dump new_db
