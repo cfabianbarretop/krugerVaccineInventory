@@ -32,12 +32,28 @@ git clone https://github.com/cfabianbarretop/krugerVaccineInventory.git
 
 * Prepare database: backup_db_postgres.dump file contains the database backup.
   * Before to generate the database backup, you must create a new database "new_db"
+  * Open a terminal and the project root directory. For example:
+  
+``` bash
+cd C:\Users\User\Documents\krugerVaccineInventory
+
+```  
+  
   * Run the command:
 
 ``` bash
 psql -h localhost -p 5432 -U postgres -f backup_db_postgres.dump new_db
 
 ```
+  * Open the project in your IDE and edit the application.properties file:
+
+``` bash
+spring.datasource.url=jdbc:postgresql://localhost:5432/new_db
+spring.datasource.username=<your_username>
+spring.datasource.password=<your_password>
+
+```
+  * Finally, run the project. 
 
 ## Usage
 
